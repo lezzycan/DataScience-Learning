@@ -1,0 +1,23 @@
+2025-06-06 00:39:14 - Arithmetic app - DEBUG - Adding 10 + 15
+2025-06-06 00:39:14 - Arithmetic app - DEBUG - Subtract 15 - 10
+2025-06-06 00:39:36 - Arithmetic app - DEBUG - Adding 10 + 15
+2025-06-06 00:39:36 - Arithmetic app - DEBUG - Subtract 15 - 10
+2025-06-06 00:39:36 - Arithmetic app - DEBUG - Multiply 10 * 20
+2025-06-06 00:39:36 - Arithmetic app - DEBUG - Divide 20 / 10
+2025-06-06 00:40:46 - Arithmetic app - DEBUG - Adding 10 + 15 = 25
+2025-06-06 00:40:46 - Arithmetic app - DEBUG - Subtract 15 - 10
+2025-06-06 00:40:46 - Arithmetic app - DEBUG - Multiply 10 * 20
+2025-06-06 00:40:46 - Arithmetic app - DEBUG - Divide 20 / 10
+2025-06-06 00:42:25 - Arithmetic app - DEBUG - Adding 10 + 15 = 25
+2025-06-06 00:42:25 - Arithmetic app - DEBUG - Subtract 15 - 10
+2025-06-06 00:42:25 - Arithmetic app - DEBUG - Multiply 10 * 20
+2025-06-06 00:42:25 - Arithmetic app - DEBUG - Divide 0 / 10 = 0.0
+2025-06-06 00:42:40 - Arithmetic app - DEBUG - Adding 10 + 15 = 25
+2025-06-06 00:42:40 - Arithmetic app - DEBUG - Subtract 15 - 10
+2025-06-06 00:42:40 - Arithmetic app - DEBUG - Multiply 10 * 20
+2025-06-06 00:42:40 - Arithmetic app - ERROR - Division by zero error
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\DataScience\logging\logs\app.py", line 28, in divide
+    result = a / b
+             ~~^~~
+ZeroDivisionError: division by zero
