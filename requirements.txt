@@ -8,3 +8,4 @@ requests
 matplotlib
 ipykernel
 seaborn
+bs4
