@@ -1,7 +1,5 @@
 import time, multiprocessing, sys, math
 
-
-
 sys.set_int_max_str_digits(100000)
 
 
@@ -22,6 +20,6 @@ if __name__ == "__main__":
         results = pool,map(compute_factorial, numbers)
         
     end_time = time.time()
-    
+
     print(f"Result: {results}")
     print("Time taken: {end_time - start_time} seconds")
