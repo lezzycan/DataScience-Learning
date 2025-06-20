@@ -10,3 +10,5 @@ ipykernel
 seaborn
 bs4
 Flask
+streamlit
+memory_profiler
